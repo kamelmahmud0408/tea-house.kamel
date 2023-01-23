@@ -6,7 +6,7 @@
     width: 255px;
     height: 100px;
     position: absolute;
-    bottom: 380px;
+    top: 450px;
     right: 420px;   
 }
 .img-client{
@@ -23,12 +23,12 @@
 @media only screen and (max-width:576px) {
     .top-card{
         position: absolute;
-       right:30px;
+       right:15px;
        bottom: 100px;
     } 
     .star-box{
         position: absolute;
-    bottom: 310px;
-    right: 80px;
+        top: 700px;
+        right: 100px;
     }
 }
