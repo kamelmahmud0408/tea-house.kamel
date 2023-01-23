@@ -1,0 +1,34 @@
+.star-icon{
+    width: 22px;
+    height: 36px;
+}
+.star-box{
+    width: 255px;
+    height: 100px;
+    position: absolute;
+    bottom: 380px;
+    right: 420px;   
+}
+.img-client{
+    position: absolute;
+    bottom: 160px;
+    right: 280px;
+
+}
+.top-card{
+    position: absolute;
+    right:250px ;
+    bottom: 100px;
+}
+@media only screen and (max-width:576px) {
+    .top-card{
+        position: absolute;
+       right:30px;
+       bottom: 100px;
+    } 
+    .star-box{
+        position: absolute;
+    bottom: 310px;
+    right: 80px;
+    }
+}
